@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alexander Matthew</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        @layer utilities {
+            .backdrop-blur {
+                backdrop-filter: blur(10px);
+            }
+            .bg-custom-blue {
+                background-color: #133E87; /* Dark Blue */
+            }
+            .bg-custom-lightblue {
+                background-color: #608BC1; /* Light Blue */
+            }
+            .bg-custom-gray {
+                background-color: #CBDCEB; /* Light Gray */
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white bg-opacity-30 backdrop-blur backdrop-filter border-b border-gray-200">
+        <div class="mx-8 py-4 flex justify-between items-center">
+            <div>
+              <img src="xander.png" alt="Profile" class="h-8">
+              </div>
+            <div class="space-x-4">
+                <a href="#home" class="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="#about" class="text-gray-700 hover:text-gray-900">About</a>
+                <a href="#portfolio" class="text-gray-700 hover:text-gray-900">Portfolio</a>
+                <a href="#contact" class="text-gray-700 hover:text-gray-900">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="flex flex-col items-center justify-center h-screen text-center bg-custom-blue text-white">
+        <h1 class="text-5xl font-bold">Alexander Matthew</h1>
+        <p class="mt-2 text-xl">Frontend Web Development & Designer</p>
+        <a href="https://instagram.com/alexander.matthew4" target="_blank">
+            <img src="profile.jpg" alt="Profile" class="mt-4 w-32 h-32 rounded-full cursor-pointer">
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-custom-lightblue">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-white">About Me</h2>
+            <p class="mt-4 text-gray-800">Alexander Matthew, Lahir 4 November 2002, Indonesia, Bandung, Jawa Barat. Profesi sebagai Frontend Web Developer & Designer (UI/UX & Graphics Design).</p>
+            <p class="mt-2 text-gray-800">Saya memakai beberapa Alat/Tools yang dapat membantu saya dalam mengerjakan berbagai proyek yang melibatkan desain dan pengembangan web.</p>
+            <div class="grid grid-cols-3 gap-4 mt-8">
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="html.png" alt="HTML" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">HTML</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="tailw.png" alt="Tailwind" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">Tailwind CSS</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="js.png" alt="JavaScript" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">JavaScript</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="nextjs.svg" alt="NextJS" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">NextJS</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="canva.png" alt="Canva" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">Canva</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+ <img src="react.png" alt="ReactJS" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">ReactJS</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="figma.png" alt="Figma" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">Figma</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="ps.png" alt="Photoshop" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">Photoshop</p>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow">
+                    <img src="Openai.png" alt="OpenAI" class="w-auto h-16 mx-auto">
+                    <p class="mt-2">OpenAI</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-custom-gray">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-gray-800">My Portfolio</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+                <img src="p1k.jpg" alt="Portfolio 1" class="rounded-lg shadow-lg">
+                <img src="p2k.jpg" alt="Portfolio 2" class="rounded-lg shadow-lg">
+                <img src="p3k.jpg" alt="Portfolio 3" class="rounded-lg shadow-lg">
+                <img src="p4k.jpg" alt="Portfolio 4" class="rounded-lg shadow-lg">
+                <img src="p5v.jpg" alt="Portfolio 5" class="rounded-lg shadow-lg">
+                <img src="p6v.jpg" alt="Portfolio 6" class="rounded-lg shadow-lg">
+                <img src="p7v.jpg" alt="Portfolio 7" class="rounded-lg shadow-lg">
+                <img src="p8v.jpg" alt="Portfolio 8" class="rounded-lg shadow-lg">
+            </div>
+            <h1 class="mt-10 text-lg text-gray-800">Other Portfolio on Progress...</h1>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-custom-lightblue">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-white">Contact Me</h2>
+            <div class="mt-8 space-y-4">
+                <p class="text-gray-800">Instagram (Personal): <a href="https://instagram.com/alexander.matthew4" class="text-blue-900">Alexander Matthew Instagram</a></p>
+                <p class="text-gray-800">Instagram (Freelance): <a href="https://instagram.com/xanders.things" class="text-blue-900">Xanders Instagram</a></p>
+                <p class="text-gray-800">WhatsApp: <a href="https://wa.me/62895344208496" class="text-blue-900">WhatsApp</a></p>
+                <p class="text-gray-800">LinkedIn: <a href="https://linkedin.com/in/https://www.linkedin.com/in/alexander-matthew-1403b4218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="text-blue-900">LinkedIn</a></p>
+                <p class="text-gray-800">Email: <a href="mailto:alexandermatthew0211@gmail.com" class="text-blue-900">Gmail</a></p>
+                <p class="text-gray-800">GitHub: <a href="https://github.com/MattXanderS/portofolio.git" class="text-blue-900">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 text-center bg-gray-300">
+        <p>&copy; 2024 Alexander Matthew. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navbar links
+        document.querySelectorAll('nav a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
